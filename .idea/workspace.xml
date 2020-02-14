@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c0efdc-5f14-41c9-b415-f8fabcacd211" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conv2d_model_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_conv_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_data/img_plot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/FF-NN-1-test_model_acc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/FF-NN-1-test_model_loss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/load_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/FF-NN-1-test.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/retrained/retrain_1/FF-NN-1-test-1.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/retrained/retrain_1/FF-NN-1-test-1_model_acc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/retrained/retrain_1/FF-NN-1-test-1_model_loss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/activate.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/easy_install" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/easy_install-3.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/f2py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/f2py3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/f2py3.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/pip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/pip3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/pip3.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/plaidbench" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/plaidml-setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/bin/python3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/include/half.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/include/plaidml/base/base.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/include/plaidml/base/base_cpp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/include/plaidml/plaidml++.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/include/plaidml/plaidml.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/share/plaidml/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/share/plaidml/experimental.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml-venv/share/plaidml/plaidml-config.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml_model_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/plaidml_model_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/myplot" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plaidml_model_test.py">
+        <entry file="file://$PROJECT_DIR$/conv2d_model_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="67">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -56,16 +28,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/base_model/graphs/loss.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/load_model.py">
+        <entry file="file://$PROJECT_DIR$/load_conv_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132">
-              <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+            <state relative-caret-position="208">
+              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,13 +62,17 @@
         <option value="$PROJECT_DIR$/test_model.py" />
         <option value="$PROJECT_DIR$/load_model.py" />
         <option value="$PROJECT_DIR$/plaidml_model_test.py" />
+        <option value="$PROJECT_DIR$/plot_data/img_plot.py" />
+        <option value="$PROJECT_DIR$/conv2d_model_test.py" />
+        <option value="$PROJECT_DIR$/load_conv_model.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="26" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1894" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,7 +96,21 @@
               <item name="plaidml_test_model" type="b2602c69:ProjectViewProjectNode" />
               <item name="plaidml_test_model" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="base_model" type="462c0819:PsiDirectoryNode" />
+              <item name="base_conv_model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plaidml_test_model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plaidml_test_model" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="base_conv_model" type="462c0819:PsiDirectoryNode" />
+              <item name="graphs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plaidml_test_model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plaidml_test_model" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="base_conv_model" type="462c0819:PsiDirectoryNode" />
+              <item name="retrain_1_d_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,7 +124,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -157,7 +145,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plaidml_model_test">
+  <component name="RunManager" selected="Python.load_conv_model">
+    <configuration name="conv2d_model_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="plaidml_test_model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conv2d_model_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_conv_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="plaidml_test_model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_conv_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="load_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="plaidml_test_model" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,28 +234,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="show_layers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="plaidml_test_model" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_info.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="plaidml_test_model" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,12 +256,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.conv2d_model_test" />
+      <item itemvalue="Python.load_model" />
+      <item itemvalue="Python.plaidml_model_test" />
+      <item itemvalue="Python.test_model" />
+      <item itemvalue="Python.load_conv_model" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.load_conv_model" />
+        <item itemvalue="Python.conv2d_model_test" />
         <item itemvalue="Python.plaidml_model_test" />
         <item itemvalue="Python.load_model" />
         <item itemvalue="Python.test_model" />
-        <item itemvalue="Python.show_layers" />
       </list>
     </recent_temporary>
   </component>
@@ -269,21 +287,23 @@
       <workItem from="1581505614027" duration="6778000" />
       <workItem from="1581531826055" duration="1321000" />
       <workItem from="1581533256454" duration="7427000" />
+      <workItem from="1581675907040" duration="7364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23047000" />
+    <option name="totallyTimeSpent" value="30411000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
+    <frame x="26" y="23" width="1894" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1656017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16954644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938856" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25837743" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.58201057" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -297,7 +317,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.5404686" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.47084233" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -305,10 +325,12 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/plaidml_test_model$conv2d_model_test.coverage" NAME="conv2d_model_test Coverage Results" MODIFIED="1581700532105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1581511484934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$show_layers.coverage" NAME="show_layers Coverage Results" MODIFIED="1581417311399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$load_model.coverage" NAME="load_model Coverage Results" MODIFIED="1581511570519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$plaidml_model_test.coverage" NAME="plaidml_model_test Coverage Results" MODIFIED="1581537654161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaidml_test_model$load_conv_model.coverage" NAME="load_conv_model Coverage Results" MODIFIED="1581702199829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -340,10 +362,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model_info.py" />
-    <entry file="file://$PROJECT_DIR$/plaidml_model_test.py">
+    <entry file="file://$PROJECT_DIR$/models/base_model/graphs/acc.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_data/img_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="340">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -353,13 +378,49 @@
     <entry file="file://$PROJECT_DIR$/models/base_model/graphs/loss.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/base_model/graphs/acc.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/plaidml_model_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/base_conv_model/retrain_1/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/load_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+        <state relative-caret-position="160">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conv2d_model_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/base_conv_model/graphs/acc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_conv_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
