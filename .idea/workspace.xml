@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c0efdc-5f14-41c9-b415-f8fabcacd211" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/load/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/load/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/load/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/load/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/plotting/img_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/plotting/plot_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/plotting/plot_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/plotting/plot_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conv2d_model_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_mcqueen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/feed_forward/load_FF_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/conv2d-1-64x64-training_d_1.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen/mcqueen_base_model.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/graphs/acc.png" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen/graphs/acc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/graphs/loss.png" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen/graphs/loss.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/retrain_1_d_1/conv2d_retrain1_d1.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/conv2d_retrain1_d1.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/retrain_1_d_1/graphs/acc.png" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/graphs/acc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/retrain_1_d_1/graphs/acc_end_training.png" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/graphs/acc_end_training.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/retrain_1_d_1/graphs/loss.png" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/graphs/loss.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/retrain_1_d_1/weights/weight_save.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/weights/weight_save.hdf5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/retrain_2_d_2/McQueen_d2.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/McQueen_d2.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/retrain_2_d_2/graphs/McQueen_acc.png" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/graphs/McQueen_acc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/retrain_2_d_2/graphs/McQueen_loss.png" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/graphs/McQueen_loss.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/retrain_2_d_2/weights/weight_save.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/weights/weight_save.hdf5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_conv_model/weight_saves/weight_save_1.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/models/mcqueen_base/mcqueen/weight_saves/weight_save_1.hdf5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plaidml_model_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_mcqueen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed_forward/load_FF_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/feed_forward/load_FF_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cars/load/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="59" />
+            <state relative-caret-position="816">
+              <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -148,17 +127,6 @@
             <path>
               <item name="plaidml_test_model" type="b2602c69:ProjectViewProjectNode" />
               <item name="plaidml_test_model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="plaidml_test_model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="plaidml_test_model" type="462c0819:PsiDirectoryNode" />
-              <item name="cars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="plaidml_test_model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="plaidml_test_model" type="462c0819:PsiDirectoryNode" />
-              <item name="cars" type="462c0819:PsiDirectoryNode" />
-              <item name="load" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="plaidml_test_model" type="b2602c69:ProjectViewProjectNode" />
@@ -342,16 +310,15 @@
       <workItem from="1581531826055" duration="1321000" />
       <workItem from="1581533256454" duration="7427000" />
       <workItem from="1581675907040" duration="8075000" />
-      <workItem from="1581789516735" duration="8921000" />
+      <workItem from="1581789516735" duration="9339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40043000" />
+    <option name="totallyTimeSpent" value="40461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="23" width="1894" height="1177" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1711663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -407,10 +374,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphs/FF-NN-1-test_model_loss.png" />
     <entry file="file://$PROJECT_DIR$/model_info.py" />
-    <entry file="file://$PROJECT_DIR$/models/base_model/graphs/acc.jpg">
+    <entry file="file://$PROJECT_DIR$/models/base_FF_model/graphs/acc.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/base_model/graphs/loss.jpg">
+    <entry file="file://$PROJECT_DIR$/models/base_FF_model/graphs/loss.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/models/base_conv_model/retrain_1/__init__.py" />
@@ -479,16 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_mcqueen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding>
-            <element signature="e#11#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create_mcqueen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -519,10 +476,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/train_mcqueen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding>
+            <element signature="e#11#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cars/load/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="59" />
+        <state relative-caret-position="816">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@ from keras.utils import normalize
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 
 # FF-NN- <model num> - <regulazation> - <imgsize> - <trained on dataset>
-NAME = "models/base_model/FF-NN-1-reg_l1_l2-64x64-training_d_1"
+NAME = "models/base_FF_model/FF-NN-1-reg_l1_l2-64x64-training_d_1"
 
 # Load dataset
 pickle_in = open("/Users/william/Documents/gitHub/B20IT38/label_dataset/X.pickle", "rb")
@@ -25,7 +25,7 @@ y_label = np.asarray(y)
 
 
 model = load_model("/Users/william/Documents/gitHub/B20IT38/plaidml_test_model/models/FF-NN-1-test.model")  # Load model
-checkpointer = ModelCheckpoint(filepath='models/base_model/weight_saves/weight_save.hdf5', verbose=1, save_best_only=True)  # saves the models weights after each epoch if the validation loss decreased
+checkpointer = ModelCheckpoint(filepath='models/base_FF_model/weight_saves/weight_save.hdf5', verbose=1, save_best_only=True)  # saves the models weights after each epoch if the validation loss decreased
 early_stop = EarlyStopping(monitor="val_loss", min_delta=0, patience=9, verbose=0, mode="auto", baseline=None, restore_best_weights=False)  # Stops the training early of the val_loss has stopped improving
 
 history = model.fit(X, y_label, epochs=10, validation_split=0.3, callbacks=[checkpointer, early_stop])  # train the model
