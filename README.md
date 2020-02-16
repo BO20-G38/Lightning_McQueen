@@ -1,9 +1,9 @@
 # Lightning McQueen
 
 ## Use case
-Keras with using PlaidML backend. Creating and retraining model. Graphed with matplotlib
+Model created for recognizing arm gestures.
 
-## Installation
+## Installation of needed packages
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install opencv.
 
@@ -13,10 +13,8 @@ pip install plaidml-keras plaidbench
 pip install -U matplotlib
 ```
 
-## Running the script
 
-
-Authors
+##Authors
 - William Svea-Lochert
 - Sander Hellesø
 - Sverre Broen
