@@ -14,7 +14,7 @@ pip install -U matplotlib
 ```
 
 
-##Authors
+## Authors
 - William Svea-Lochert
 - Sander Hellesø
 - Sverre Broen
