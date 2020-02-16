@@ -1,3 +1,8 @@
+# ------------------------------------------------------- #
+# Author: William Svea-Lochert
+# Date written: 16.02.2020
+# Load datasets into project
+# ------------------------------------------------------- #
 import pickle
 import numpy as np
 

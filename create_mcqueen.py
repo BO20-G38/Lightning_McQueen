@@ -1,3 +1,9 @@
+# ------------------------------------------------------- #
+# Author: William Svea-Lochert
+# Date written: 16.02.2020
+# Initial creation of the McQueen model for recognising
+# arm gestures.
+# ------------------------------------------------------- #
 import os
 from cars.plotting.plot_graph import plot_model
 from cars.load.dataset import load_x_dataset1, load_y_dataset1
@@ -9,7 +15,7 @@ from keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.optimizers import SGD
 
-NAME = "/Users/william/Documents/gitHub/B20IT38/plaidml_test_model/models/base_conv_model/conv2d-1-64x64-training_d_1"  # Model name
+NAME = "/Users/william/Documents/gitHub/B20IT38/plaidml_test_model/models/mcqueen_base/conv2d-1-64x64-training_d_1"  # Model name
 
 # Loading dataset
 X = load_x_dataset1()
@@ -25,7 +31,7 @@ model.add(Flatten())
 model.add(Dense(1000, activation='relu'))
 model.add(Dense(5, activation='softmax'))
 
-checkpointer = ModelCheckpoint(filepath='/plaidml_test_model/models/base_conv_model/weight_saves/weight_save_1.hdf5', verbose=1, save_best_only=True)  # saves the models weights after each epoch if the validation loss decreased
+checkpointer = ModelCheckpoint(filepath='/plaidml_test_model/models/mcqueen_base/weight_saves/weight_save_1.hdf5', verbose=1, save_best_only=True)  # saves the models weights after each epoch if the validation loss decreased
 early_stop = EarlyStopping(monitor="val_loss", min_delta=0, patience=4, verbose=0, mode="auto", baseline=None, restore_best_weights=False)  # Stops the training early of the val_loss has stopped improving
 
 model.compile(loss='sparse_categorical_crossentropy', optimizer=SGD(lr=0.01), metrics=['accuracy'])
