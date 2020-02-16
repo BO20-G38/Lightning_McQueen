@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/plaidml_test_model.iml" filepath="$PROJECT_DIR$/.idea/plaidml_test_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lightning_mcqueen.iml" filepath="$PROJECT_DIR$/.idea/lightning_mcqueen.iml" />
     </modules>
   </component>
 </project>
