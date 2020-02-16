@@ -55,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="200">
-                <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <first_editor>
+                <caret column="19" selection-start-column="19" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -439,12 +439,12 @@
       <workItem from="1581533256454" duration="7427000" />
       <workItem from="1581675907040" duration="8075000" />
       <workItem from="1581789516735" duration="10031000" />
-      <workItem from="1581878665474" duration="863000" />
+      <workItem from="1581878665474" duration="1132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42016000" />
+    <option name="totallyTimeSpent" value="42285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,8 +621,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <first_editor>
+            <caret column="19" selection-start-column="19" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>

@@ -1,4 +1,4 @@
-# Plaidml_test_model
+# Lightning McQueen
 
 ## Use case
 Keras with using PlaidML backend. Creating and retraining model. Graphed with matplotlib
