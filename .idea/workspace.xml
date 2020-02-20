@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4c0efdc-5f14-41c9-b415-f8fabcacd211" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_mcqueen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_mcqueen.py" afterDir="false" />
-    </list>
+    <list default="true" id="c4c0efdc-5f14-41c9-b415-f8fabcacd211" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +26,19 @@
         <entry file="file://$PROJECT_DIR$/create_mcqueen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="880">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="460">
+                <caret line="23" selection-start-line="23" selection-end-line="23" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -300,12 +308,12 @@
       <workItem from="1581675907040" duration="8075000" />
       <workItem from="1581789516735" duration="10031000" />
       <workItem from="1581878665474" duration="1468000" />
-      <workItem from="1582010866479" duration="4150000" />
+      <workItem from="1582010866479" duration="4379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46771000" />
+    <option name="totallyTimeSpent" value="47000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,16 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="320">
-            <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cars/load/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -479,10 +477,20 @@
     <entry file="file://$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/graphs/McQueen_acc.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="460">
+            <caret line="23" selection-start-line="23" selection-end-line="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/create_mcqueen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>

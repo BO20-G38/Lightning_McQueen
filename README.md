@@ -5,7 +5,7 @@ Model created for recognizing arm gestures.
 
 ## Installation of needed packages
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install opencv.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install needed packages
 
 ```bash
 pip install keras
