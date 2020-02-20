@@ -15,7 +15,7 @@ from keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.optimizers import SGD
 
-NAME = "/Users/william/Documents/gitHub/B20IT38/lightning_mcqueen/models/mcqueen_base/conv2d-1-64x64-training_d_1"  # Model name
+NAME = "/Users/william/Documents/gitHub/B20IT38/lightning_mcqueen/models/mcqueen_base/mcqueen_base_model"  # Model name
 
 # Loading dataset
 X = load_x_dataset1()
