@@ -30,7 +30,8 @@ model.add(Flatten())  # takes our 100x100 and makes it 1x10000
 model.add(Dense(512, activation='relu', input_shape=X.shape[1:], name="dense_1"))
 model.add(Dense(512, activation='relu', name="dense_2"))  # a simple fully-connected layer, 128 units, relu activation
 model.add(Dense(512, activation='relu', name="dense_3"))  # a simple fully-connected layer, 128 units, relu activation
-model.add(Dense(5, activation='softmax', name="dense_output"))  # our output layer. 5 units for 5 classes. Softmax for probability distribution
+model.add(Dense(5, activation='softmax', name="dense"
+                                              "_output"))  # our output layer. 5 units for 5 classes. Softmax for probability distribution
 
 # model.load_weights("/Users/william/Documents/gitHub/B20IT38/lightning_mcqueen/models/base_FF_model/weight_saves/weight_save.hdf5", by_name=True)
 

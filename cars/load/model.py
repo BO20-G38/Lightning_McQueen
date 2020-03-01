@@ -43,8 +43,3 @@ def train_model(X, y, epochs, batch_size, val_split, patience, model, save_locat
     # Return history object
     return history
 
-
-
-
-
-#checkpointer = ModelCheckpoint(filepath='/lightning_mcqueen/models/McQueen/weight_save.hdf5', verbose=1, save_best_only=True)  # saves the models weights after each epoch if the validation loss decreased
