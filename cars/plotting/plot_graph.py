@@ -10,10 +10,10 @@ import matplotlib.pyplot as plt
 def plot_model(history, metric, name, save_location):
     plt.plot(history.history[metric])
     plt.plot(history.history['val_' + metric])
-    plt.title(name + ' Model ' + metric)
+    plt.title(name + ' ' + metric)
     plt.ylabel(metric)
     plt.xlabel('Epoch')
-    plt.legend(['Train', 'Test'], loc='upper left')
+    plt.legend(['Train', 'val'], loc='upper left')
     plt.show()
     plt.savefig(save_location)
 

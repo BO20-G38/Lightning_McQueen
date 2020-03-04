@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c0efdc-5f14-41c9-b415-f8fabcacd211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/william.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/testing/test_mcqueen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create_mcqueen_adam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cars/plotting/plot_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/load/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/load/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/load/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/load/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/plotting/plot_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/plotting/plot_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/plotting/plot_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/plotting/plot_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_mcqueen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_FF_model/FF-NN-1-64x64-training_d_1.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_FF_model/graphs/acc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_FF_model/graphs/loss.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_FF_model/weight_saves/weight_save2.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen/acc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen/loss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen/mcqueen_base_model.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen/weight_saves/weight_save_1.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/McQueen_d1.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/acc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/acc_end_training.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/loss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/weights/weight_save.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/McQueen_d2.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/acc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/loss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/weights/weight_save.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_mcqueen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/testing/test_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/testing/test_mcqueen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/create_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/create_mcqueen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed_forward/load_FF_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/feed_forward/load_FF_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,47 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_mcqueen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
-              <folding>
-                <element signature="e#232#279#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create_mcqueen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-              <folding>
-                <element signature="e#250#259#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/create_mcqueen_adam.py">
+        <entry file="file://$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+            <state relative-caret-position="249">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
-                <element signature="e#286#295#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cars/testing/test_mcqueen.py">
+        <entry file="file://$PROJECT_DIR$/cars/plotting/plot_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="78" />
+            <state relative-caret-position="360">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -121,22 +77,26 @@
         <option value="$PROJECT_DIR$/test_model.py" />
         <option value="$PROJECT_DIR$/cars/plotting/img_plot.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py" />
         <option value="$PROJECT_DIR$/cars/load/dataset.py" />
         <option value="$PROJECT_DIR$/cars/plotting/plot_img.py" />
         <option value="$PROJECT_DIR$/create_mcqueen.py" />
         <option value="$PROJECT_DIR$/test_mcqueen.py" />
         <option value="$PROJECT_DIR$/cars/load/model.py" />
         <option value="$PROJECT_DIR$/cars/load/model.py" />
-        <option value="$PROJECT_DIR$/cars/plotting/plot_graph.py" />
         <option value="$PROJECT_DIR$/models/mcqueen_phase_two/test_log.txt" />
         <option value="$PROJECT_DIR$/models/mcqueen_phase_three/model_info.txt" />
         <option value="$PROJECT_DIR$/models/mcqueen_phase_two/model_info.txt" />
         <option value="$PROJECT_DIR$/models/test_log.txt" />
         <option value="$PROJECT_DIR$/models/mcqueen_base/model_info.txt" />
-        <option value="$PROJECT_DIR$/cars/testing/test_mcqueen.py" />
         <option value="$PROJECT_DIR$/create_mcqueen_adam.py" />
         <option value="$PROJECT_DIR$/train_mcqueen.py" />
+        <option value="$PROJECT_DIR$/drivers/create_mcqueen.py" />
+        <option value="$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py" />
+        <option value="$PROJECT_DIR$/cars/testing/test_mcqueen.py" />
+        <option value="$PROJECT_DIR$/feed_forward/create_mcqueen_ff.py" />
+        <option value="$PROJECT_DIR$/cars/plotting/plot_graph.py" />
+        <option value="$PROJECT_DIR$/cars/plotting/plot_model.py" />
+        <option value="$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py" />
       </list>
     </option>
   </component>
@@ -159,6 +119,39 @@
               <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
               <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
+              <item name="plotting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+              <item name="feed_forward" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
+              <item name="env" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
+              <item name="env" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -176,11 +169,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/drivers" />
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/cars/testing" />
       <recent name="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2" />
       <recent name="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1" />
-      <recent name="$PROJECT_DIR$/models/mcqueen_base/mcqueen" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -195,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_mcqueen">
+  <component name="RunManager" selected="Python.create_mcqueen_ff (1)">
     <configuration name="create_mcqueen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lightning_mcqueen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,7 +233,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="plaidml_model_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="create_mcqueen_ff (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lightning_mcqueen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drivers/feed_forward" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_mcqueen_ff" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lightning_mcqueen" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,7 +268,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feed_forward/create_mcqueen_ff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lightning_mcqueen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cars/plotting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cars/plotting/plot_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,28 +316,6 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_mcqueen" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lightning_mcqueen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cars/testing/test_mcqueen.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -332,16 +347,17 @@
       <item itemvalue="Python.create_mcqueen_adam" />
       <item itemvalue="Python.create_mcqueen" />
       <item itemvalue="Python.train_mcqueen" />
-      <item itemvalue="Python.plaidml_model_test" />
-      <item itemvalue="Python.test_mcqueen" />
+      <item itemvalue="Python.create_mcqueen_ff" />
+      <item itemvalue="Python.create_mcqueen_ff (1)" />
+      <item itemvalue="Python.plot_model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_mcqueen_ff (1)" />
+        <item itemvalue="Python.plot_model" />
+        <item itemvalue="Python.create_mcqueen_ff" />
         <item itemvalue="Python.train_mcqueen" />
         <item itemvalue="Python.create_mcqueen" />
-        <item itemvalue="Python.test_mcqueen" />
-        <item itemvalue="Python.test_mcqueen" />
-        <item itemvalue="Python.plaidml_model_test" />
       </list>
     </recent_temporary>
   </component>
@@ -364,12 +380,12 @@
       <workItem from="1581878665474" duration="1468000" />
       <workItem from="1582010866479" duration="10316000" />
       <workItem from="1582549634022" duration="1682000" />
-      <workItem from="1582907483990" duration="15978000" />
+      <workItem from="1582907483990" duration="23373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70597000" />
+    <option name="totallyTimeSpent" value="77992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,22 +398,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49952784" visible="true" weight="0.18210863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5004721" side_tool="true" weight="0.18210863" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892415" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295562" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38904628" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329806" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295562" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329806" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32994062" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.45414463" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4532578" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329806" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -415,16 +432,19 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen_ff__1_.coverage" NAME="create_mcqueen_ff (1) Coverage Results" MODIFIED="1583337815999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/feed_forward" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$plot_model.coverage" NAME="plot_model Coverage Results" MODIFIED="1583336950427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/plotting" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$test_mcqueen__1_.coverage" NAME="test_mcqueen (1) Coverage Results" MODIFIED="1583088918907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen.coverage" NAME="create_mcqueen Coverage Results" MODIFIED="1583091684998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaidml_test_model$plaidml_model_test.coverage" NAME="plaidml_model_test Coverage Results" MODIFIED="1581537654161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$conv2d_model_test.coverage" NAME="conv2d_model_test Coverage Results" MODIFIED="1581700532105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1581511484934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$test_mcqueen.coverage" NAME="test_mcqueen Coverage Results" MODIFIED="1583084357354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/testing" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen_adam.coverage" NAME="create_mcqueen_adam Coverage Results" MODIFIED="1583097208738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$load_conv_model.coverage" NAME="train_mcqueen Coverage Results" MODIFIED="1583098727506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$test_mcqueen__1_.coverage" NAME="test_mcqueen (1) Coverage Results" MODIFIED="1583088918907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$plaidml_model_test.coverage" NAME="create_mcqueen_ff Coverage Results" MODIFIED="1583102720200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$show_layers.coverage" NAME="show_layers Coverage Results" MODIFIED="1581417311399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$load_model.coverage" NAME="load_model Coverage Results" MODIFIED="1581511570519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen.coverage" NAME="create_mcqueen Coverage Results" MODIFIED="1583091684998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/plaidml_test_model$plaidml_model_test.coverage" NAME="plaidml_model_test Coverage Results" MODIFIED="1581537654161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$load_conv_model.coverage" NAME="load_conv_model Coverage Results" MODIFIED="1581873008640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -478,32 +498,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feed_forward/load_FF_model.py">
+    <entry file="file://$PROJECT_DIR$/drivers/feed_forward/load_FF_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars/load/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-          <folding>
-            <element signature="e#207#220#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -531,13 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars/plotting/plot_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -572,39 +565,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cars/testing/test_mcqueen.py">
+    <entry file="file://$PROJECT_DIR$/drivers/create_mcqueen_adam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="78" />
+        <state relative-caret-position="781">
+          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="e#286#295#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_mcqueen.py">
+    <entry file="file://$PROJECT_DIR$/drivers/train_mcqueen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+          <caret line="21" column="109" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="109" />
           <folding>
             <element signature="e#232#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_mcqueen.py">
+    <entry file="file://$PROJECT_DIR$/drivers/create_mcqueen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        <state relative-caret-position="591">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding>
             <element signature="e#250#259#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_mcqueen_adam.py">
+    <entry file="file://$PROJECT_DIR$/cars/testing/test_mcqueen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+        <state relative-caret-position="360">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars/load/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
-            <element signature="e#286#295#0" expanded="true" />
+            <element signature="e#207#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars/plotting/plot_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/feed_forward/model.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cars/plotting/plot_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

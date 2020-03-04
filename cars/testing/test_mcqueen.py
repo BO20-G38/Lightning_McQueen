@@ -34,7 +34,7 @@ def test_model(model_name):
 
 # Writes result of testing to log file
 def open_text_file(log):
-    file = open('/Users/william/Documents/gitHub/B20IT38/mcqueen_models/models/test_log.txt', 'a')
+    file = open('/Users/william/Documents/gitHub/B20IT38/mcqueen_models/test_log.txt', 'a')
     file.write(log)
     file.close()
 
