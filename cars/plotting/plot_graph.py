@@ -14,6 +14,7 @@ def plot_model(history, metric, name, save_location):
     plt.ylabel(metric)
     plt.xlabel('Epoch')
     plt.legend(['Train', 'val'], loc='upper left')
-    plt.show()
     plt.savefig(save_location)
+    plt.show()
+
 

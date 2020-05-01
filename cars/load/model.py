@@ -8,12 +8,13 @@
 # a summary of the model then save the model and return the
 # history object created by the fit() function call.
 # ------------------------------------------------------- #
-
 import os
+
 os.environ["KERAS_BACKEND"] = "plaidml.keras.backend"
 
 from keras.models import load_model
 from keras.callbacks import ModelCheckpoint, EarlyStopping
+from keras.optimizers import SGD, Adam
 
 
 # Train the given model
@@ -28,6 +29,8 @@ def train_model(X, y, epochs, batch_size, val_split, patience, model, save_locat
                                mode="auto",
                                baseline=None,
                                restore_best_weights=False)  # Stops the training early of the val_loss has stopped improving
+
+    model.compile(loss='sparse_categorical_crossentropy', optimizer=SGD(lr=0.0001, momentum=0.6), metrics=['accuracy'])
 
     # Train model with early stop callback
     history = model.fit(X, y,

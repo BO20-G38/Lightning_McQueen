@@ -7,60 +7,103 @@ import pickle
 import numpy as np
 
 
-# Load dataset 1
-def load_x_dataset1():
-    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/data_and_test_sets/processed/d_1/X.pickle", "rb")
+# ------- MobileNet Dataset ----------
+def load_x_1():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/Dataset_1_room/X.pickle", "rb")
     x = pickle.load(pickle_in)
-    x = x/255.0
+    x = x/225
     return x
 
 
-def load_y_dataset1():
-    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/data_and_test_sets/processed/d_1/y.pickle", "rb")
+def load_y_1():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/Dataset_1_room/y.pickle", "rb")
     y = pickle.load(pickle_in)
     y = np.asarray(y)
     return y
 
 
-# Load dataset 2
-def load_x_dataset2():
-    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/data_and_test_sets/processed/d_2/X.pickle", "rb")
+def load_x_2():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/Dataset_2_livingroom/X.pickle", "rb")
     x = pickle.load(pickle_in)
-    x = x / 255.0
+    x = x/225
     return x
 
 
-def load_y_dataset2():
-    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/data_and_test_sets/processed/d_2/y.pickle", "rb")
+def load_y_2():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/Dataset_2_livingroom/y.pickle", "rb")
     y = pickle.load(pickle_in)
     y = np.asarray(y)
     return y
 
 
-def load_x_dataset3():
-    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/data_and_test_sets/processed/d_3/X.pickle", "rb")
+def load_x_3():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/dataset_4_auditoriet/X.pickle", "rb")
     x = pickle.load(pickle_in)
-    x = x/255.0
+    x = x/225
     return x
 
 
-def load_y_dataset3():
-    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/data_and_test_sets/processed/d_3/y.pickle", "rb")
+def load_y_3():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/dataset_4_auditoriet/y.pickle", "rb")
     y = pickle.load(pickle_in)
     y = np.asarray(y)
     return y
 
 
-# Load testset 1
-def load_x_testset1():
-    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/data_and_test_sets/processed/t_1/X.pickle", "rb")
+def load_x_4():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/dataset_5_forest/X.pickle", "rb")
     x = pickle.load(pickle_in)
-    x = x / 255.0
+    x = x/225
     return x
 
 
-def load_y_testset1():
-    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/data_and_test_sets/processed/t_1/y.pickle", "rb")
+def load_y_4():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/dataset_5_forest/y.pickle", "rb")
     y = pickle.load(pickle_in)
     y = np.asarray(y)
     return y
+
+
+def load_x_5():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/dataset_7_street/X.pickle", "rb")
+    x = pickle.load(pickle_in)
+    x = x/225
+    return x
+
+
+def load_y_5():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/dataset_7_street/y.pickle", "rb")
+    y = pickle.load(pickle_in)
+    y = np.asarray(y)
+    return y
+# ------------------------------------
+
+
+# For mobileNet model -------
+def load_x_testset_m_1():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/Dataset_3_white/X.pickle", "rb")
+    x = pickle.load(pickle_in)
+    x = x/225
+    return x
+
+
+def load_y_testset_m_1():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/Dataset_3_white/y.pickle", "rb")
+    y = pickle.load(pickle_in)
+    y = np.asarray(y)
+    return y
+
+
+def load_x_testset_m_2():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/Dataset_6_complex/X.pickle", "rb")
+    x = pickle.load(pickle_in)
+    x = x/225
+    return x
+
+
+def load_y_testset_m_2():
+    pickle_in = open("/Users/william/Documents/gitHub/B20IT38/greenscreen_data/Dataset_6_complex/y.pickle", "rb")
+    y = pickle.load(pickle_in)
+    y = np.asarray(y)
+    return y
+
