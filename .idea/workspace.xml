@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c0efdc-5f14-41c9-b415-f8fabcacd211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cars/greenscreen/data_augmentation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/prepair_img/prep.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/phase_three/phase_three_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lightning_mcqueen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lightning_mcqueen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/load/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/load/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/load/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/load/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/matrix/ConfusionMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/matrix/ConfusionMatrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/plotting/plot_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/plotting/plot_training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/plotting/plot_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/plotting/plot_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/plotting/plot_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/feed_forward/mcqueen_Fc_arch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_mobilenet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen_adam.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen_adam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_one/train_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/train_mcqueen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_p2_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_p2_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_phase_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_phase_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/label/label.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/label/label.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/fully_connected/create_mcqueen_fully_connected.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/feed_forward/load_FF_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/fully_connected/load_FF_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen_phase_one.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_phase_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_two/create_mcqueen_phase_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/phase_three/phase_three_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/phase_three/create_mcqueen_phase_three.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +80,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="create_mcqueen_phase_three" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lightning_mcqueen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drivers/phase_three" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\William\Documents\GitHub\B20IT38\Lightning_McQueen\drivers\phase_three\create_mcqueen_phase_three.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="label" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lightning_mcqueen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,29 +159,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_phase_two.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="phase_three_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lightning_mcqueen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drivers/phase_three" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drivers/phase_three/phase_three_model.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\William\Documents\GitHub\B20IT38\Lightning_McQueen\drivers\mcqueen_phase_two\create_mcqueen_phase_two.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
@@ -232,14 +218,14 @@
       <item itemvalue="Python.mcqueen_phase_two" />
       <item itemvalue="Python.train_mcqueen" />
       <item itemvalue="Python.label" />
-      <item itemvalue="Python.phase_three_model" />
       <item itemvalue="Python.prep" />
+      <item itemvalue="Python.create_mcqueen_phase_three" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.prep" />
         <item itemvalue="Python.train_mcqueen" />
-        <item itemvalue="Python.phase_three_model" />
+        <item itemvalue="Python.create_mcqueen_phase_three" />
         <item itemvalue="Python.mcqueen_phase_two" />
         <item itemvalue="Python.label" />
       </list>
@@ -305,7 +291,7 @@
       <workItem from="1589465510715" duration="9862000" />
       <workItem from="1589557459197" duration="2258000" />
       <workItem from="1589816344346" duration="9186000" />
-      <workItem from="1589894638306" duration="8754000" />
+      <workItem from="1589894638306" duration="10460000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,8 @@ import pickle
 
 CATEGORIES = ["forward", "right", "left", "backward", "stop", "still"]
 training_data = []
-IMG_SIZE = 224
+IMG_SIZE = 100
+
 
 def create_training_data(DATADIR):
     for category in CATEGORIES:
@@ -39,8 +40,3 @@ def create_training_data(DATADIR):
     pickle_out = open(DATADIR + "/y.pickle", "wb")
     pickle.dump(y, pickle_out)
     pickle_out.close()
-
-
-create_training_data('/Users/william/Documents/gitHub/B20IT38/greenscreen_data/dataset_1_room')
-
-
