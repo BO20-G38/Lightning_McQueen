@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c0efdc-5f14-41c9-b415-f8fabcacd211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cars/label/label.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/matrix/ConfusionMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/mcqueen_mobilenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_p2_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_phase_two.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cars/greenscreen/data_augmentation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cars/prepair_img/prep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/phase_three/phase_three_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lightning_mcqueen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lightning_mcqueen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/load/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/load/dataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/load/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/load/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/plotting/plot_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/plotting/plot_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/testing/test_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/testing/test_mcqueen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/create_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/create_mcqueen_adam.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen_adam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/train_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_one/train_mcqueen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/matrix/ConfusionMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/matrix/ConfusionMatrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/plotting/plot_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/plotting/plot_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/plotting/plot_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/plotting/plot_img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/plotting/plot_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/feed_forward/mcqueen_Fc_arch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_mobilenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen_adam.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen_adam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_one/train_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/train_mcqueen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_p2_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_p2_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_phase_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_phase_two.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,44 +37,6 @@
       <favorite_root url="file://$PROJECT_DIR$/drivers/create_mcqueen_adam.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/drivers/mcqueen_phase_one/train_mcqueen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-              <folding>
-                <element signature="e#232#279#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cars/load/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="32" column="95" selection-start-line="32" selection-start-column="95" selection-end-line="32" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cars/load/dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="905">
-              <caret line="67" column="95" selection-start-line="67" selection-start-column="95" selection-end-line="67" selection-end-column="95" />
-              <caret line="74" column="95" selection-start-line="74" selection-start-column="95" selection-end-line="74" selection-end-column="95" />
-              <folding>
-                <element signature="e#207#220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -79,108 +47,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/show_layers.py" />
-        <option value="$PROJECT_DIR$/model_info.py" />
-        <option value="$PROJECT_DIR$/load_model.py" />
-        <option value="$PROJECT_DIR$/plaidml_model_test.py" />
-        <option value="$PROJECT_DIR$/plot_data/img_plot.py" />
-        <option value="$PROJECT_DIR$/load/dataset.py" />
-        <option value="$PROJECT_DIR$/plotting/plot_graph.py" />
-        <option value="$PROJECT_DIR$/load_conv_model.py" />
-        <option value="$PROJECT_DIR$/load/model.py" />
-        <option value="$PROJECT_DIR$/conv2d_model_test.py" />
-        <option value="$PROJECT_DIR$/test_model.py" />
-        <option value="$PROJECT_DIR$/cars/plotting/img_plot.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/cars/plotting/plot_img.py" />
-        <option value="$PROJECT_DIR$/create_mcqueen.py" />
-        <option value="$PROJECT_DIR$/test_mcqueen.py" />
-        <option value="$PROJECT_DIR$/models/mcqueen_phase_two/test_log.txt" />
-        <option value="$PROJECT_DIR$/models/mcqueen_phase_three/model_info.txt" />
-        <option value="$PROJECT_DIR$/models/mcqueen_phase_two/model_info.txt" />
-        <option value="$PROJECT_DIR$/models/test_log.txt" />
-        <option value="$PROJECT_DIR$/models/mcqueen_base/model_info.txt" />
-        <option value="$PROJECT_DIR$/create_mcqueen_adam.py" />
-        <option value="$PROJECT_DIR$/train_mcqueen.py" />
-        <option value="$PROJECT_DIR$/feed_forward/plaidml_FF_model_test.py" />
-        <option value="$PROJECT_DIR$/feed_forward/create_mcqueen_ff.py" />
-        <option value="$PROJECT_DIR$/cars/plotting/plot_model.py" />
-        <option value="$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py" />
-        <option value="$PROJECT_DIR$/drivers/train_mcqueen.py" />
-        <option value="$PROJECT_DIR$/drivers/create_mcqueen.py" />
-        <option value="$PROJECT_DIR$/drivers/mcqueen_resnet.py" />
-        <option value="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen.py" />
-        <option value="$PROJECT_DIR$/cars/matrix/ConfusionMatrix.py" />
-        <option value="$PROJECT_DIR$/cars/label/label.py" />
-        <option value="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_p2_train.py" />
-        <option value="$PROJECT_DIR$/cars/plotting/plot_graph.py" />
-        <option value="$PROJECT_DIR$/drivers/mcqueen_mobilenet.py" />
-        <option value="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_phase_two.py" />
-        <option value="$PROJECT_DIR$/cars/testing/test_mcqueen.py" />
-        <option value="$PROJECT_DIR$/cars/load/dataset.py" />
-        <option value="$PROJECT_DIR$/cars/load/model.py" />
-        <option value="$PROJECT_DIR$/cars/load/model.py" />
-        <option value="$PROJECT_DIR$/drivers/mcqueen_phase_one/train_mcqueen.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-74" />
-    <option name="y" value="23" />
-    <option name="width" value="1886" />
-    <option name="height" value="1099" />
-  </component>
+  <component name="ProjectId" id="1bJWJa4YcJaOB1iXhLyk6NG9IsJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
-              <item name="cars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
-              <item name="feed_forward" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
-              <item name="mcqueen_phase_one" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning_mcqueen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning_mcqueen" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
-              <item name="mcqueen_phase_two" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -192,48 +64,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\William\Documents\GitHub\B20IT38\Lightning_McQueen\drivers" />
       <recent name="$PROJECT_DIR$/drivers/mcqueen_phase_one" />
       <recent name="$PROJECT_DIR$/drivers" />
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/cars/testing" />
-      <recent name="$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.train_mcqueen">
-    <configuration name="create_mcqueen" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lightning_mcqueen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drivers/mcqueen_phase_one" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.prep">
     <configuration name="create_mcqueen_adam" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="lightning_mcqueen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,28 +111,6 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mcqueen_mobilenet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lightning_mcqueen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drivers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drivers/mcqueen_mobilenet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -344,6 +160,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="phase_three_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lightning_mcqueen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drivers/phase_three" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drivers/phase_three/phase_three_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prep" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lightning_mcqueen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cars/prepair_img" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cars/prepair_img/prep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="train_mcqueen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lightning_mcqueen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -357,7 +217,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drivers/mcqueen_phase_one/train_mcqueen.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\William\Documents\GitHub\B20IT38\Lightning_McQueen\drivers\train_mcqueen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
@@ -369,21 +229,33 @@
     <list>
       <item itemvalue="Python.create_mcqueen_adam" />
       <item itemvalue="Python.mcqueen_p2_train" />
-      <item itemvalue="Python.create_mcqueen" />
-      <item itemvalue="Python.mcqueen_mobilenet" />
       <item itemvalue="Python.mcqueen_phase_two" />
       <item itemvalue="Python.train_mcqueen" />
       <item itemvalue="Python.label" />
+      <item itemvalue="Python.phase_three_model" />
+      <item itemvalue="Python.prep" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prep" />
         <item itemvalue="Python.train_mcqueen" />
+        <item itemvalue="Python.phase_three_model" />
         <item itemvalue="Python.mcqueen_phase_two" />
         <item itemvalue="Python.label" />
-        <item itemvalue="Python.create_mcqueen" />
-        <item itemvalue="Python.mcqueen_mobilenet" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -417,11 +289,25 @@
       <workItem from="1586094051421" duration="6982000" />
       <workItem from="1586296226162" duration="4613000" />
       <workItem from="1586629550436" duration="25079000" />
+      <workItem from="1588350606486" duration="8049000" />
+      <workItem from="1588529604847" duration="8360000" />
+      <workItem from="1588679476611" duration="1225000" />
+      <workItem from="1588766258041" duration="4236000" />
+      <workItem from="1588812105407" duration="348000" />
+      <workItem from="1588812466028" duration="274000" />
+      <workItem from="1588868393040" duration="8251000" />
+      <workItem from="1588968272510" duration="6870000" />
+      <workItem from="1589040452767" duration="9422000" />
+      <workItem from="1589134664739" duration="614000" />
+      <workItem from="1589207607322" duration="3386000" />
+      <workItem from="1589293718649" duration="2193000" />
+      <workItem from="1589383486304" duration="5726000" />
+      <workItem from="1589465510715" duration="9862000" />
+      <workItem from="1589557459197" duration="2258000" />
+      <workItem from="1589816344346" duration="9186000" />
+      <workItem from="1589894638306" duration="8754000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,33 +318,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="30" y="23" width="1886" height="1099" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49952784" visible="true" weight="0.1697397" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5004721" side_tool="true" weight="0.18210863" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32892415" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499187" visible="true" weight="0.39583334" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295562" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329806" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500813" side_tool="true" weight="0.40335307" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19921105" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329806" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32938856" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.3421909" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -467,209 +326,67 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588359008709">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588359008709" />
+    <state x="690" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589915512478">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589915512478" />
+    <state width="1877" height="392" key="GridCell.Tab.0.bottom" timestamp="1589915495830">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589915495830" />
+    <state width="1860" height="389" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589843615894" />
+    <state width="1877" height="392" key="GridCell.Tab.0.center" timestamp="1589915495829">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="392" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589915495829" />
+    <state width="1860" height="389" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589843615893" />
+    <state width="1877" height="392" key="GridCell.Tab.0.left" timestamp="1589915495829">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="392" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589915495829" />
+    <state width="1860" height="389" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589843615893" />
+    <state width="1877" height="392" key="GridCell.Tab.0.right" timestamp="1589915495830">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="392" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589915495830" />
+    <state width="1860" height="389" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589843615894" />
+    <state x="461" y="168" key="SettingsEditor" timestamp="1588350654430">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588350654430" />
+    <state x="2556" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1589894637894">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589557459361" />
+    <state x="2556" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589894637894" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$mcqueen_phase_two.coverage" NAME="mcqueen_phase_two Coverage Results" MODIFIED="1585645945723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_two" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen_ff__1_.coverage" NAME="create_mcqueen_ff (1) Coverage Results" MODIFIED="1583337815999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/feed_forward" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$load_conv_model.coverage" NAME="train_mcqueen Coverage Results" MODIFIED="1583098727506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$train_mcqueen.coverage" NAME="train_mcqueen Coverage Results" MODIFIED="1588271906589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_one" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen.coverage" NAME="create_mcqueen Coverage Results" MODIFIED="1585135110175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_one" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$mcqueen_p2_train.coverage" NAME="mcqueen_p2_train Coverage Results" MODIFIED="1584468020376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_two" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$mcqueen_resnet.coverage" NAME="mcqueen_mobilenet Coverage Results" MODIFIED="1584579912397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$label.coverage" NAME="label Coverage Results" MODIFIED="1585412677327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/label" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$plot_model.coverage" NAME="plot_model Coverage Results" MODIFIED="1583336950427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/plotting" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$mcqueen_p2_train.coverage" NAME="mcqueen_p2_train Coverage Results" MODIFIED="1584468020376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_two" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$train_mcqueen.coverage" NAME="train_mcqueen Coverage Results" MODIFIED="1588271906589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_one" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$test_mcqueen__1_.coverage" NAME="test_mcqueen (1) Coverage Results" MODIFIED="1583088918907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen.coverage" NAME="create_mcqueen Coverage Results" MODIFIED="1585135110175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_one" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$plaidml_model_test.coverage" NAME="plaidml_model_test Coverage Results" MODIFIED="1581537654161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/plaidml_test_model$conv2d_model_test.coverage" NAME="conv2d_model_test Coverage Results" MODIFIED="1581700532105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/plaidml_test_model$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1581511484934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$plot_model.coverage" NAME="plot_model Coverage Results" MODIFIED="1583336950427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/plotting" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$test_mcqueen.coverage" NAME="test_mcqueen Coverage Results" MODIFIED="1583084357354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/testing" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen_adam.coverage" NAME="create_mcqueen_adam Coverage Results" MODIFIED="1583097208738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$load_conv_model.coverage" NAME="train_mcqueen Coverage Results" MODIFIED="1583098727506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lightning_mcqueen$plaidml_model_test.coverage" NAME="create_mcqueen_ff Coverage Results" MODIFIED="1583102720200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lightning_McQueen$phase_three_model.coverage" NAME="phase_three_model Coverage Results" MODIFIED="1589506640360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/phase_three" />
+    <SUITE FILE_PATH="coverage/Lightning_McQueen$prep.coverage" NAME="prep Coverage Results" MODIFIED="1589914914866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/prepair_img" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$show_layers.coverage" NAME="show_layers Coverage Results" MODIFIED="1581417311399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/plaidml_test_model$load_model.coverage" NAME="load_model Coverage Results" MODIFIED="1581511570519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$load_conv_model.coverage" NAME="load_conv_model Coverage Results" MODIFIED="1581873008640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/graphs/FF-NN-1-test_model_loss.png" />
-    <entry file="file://$PROJECT_DIR$/model_info.py" />
-    <entry file="file://$PROJECT_DIR$/models/base_FF_model/graphs/loss.jpg" />
-    <entry file="file://$PROJECT_DIR$/models/base_conv_model/retrain_1/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/loss.png" />
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/acc.png" />
-    <entry file="file://$PROJECT_DIR$/test_model.py" />
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_base/mcqueen/mcqueen_base_model.model" />
-    <entry file="file://$PROJECT_DIR$/env/pyvenv.cfg" />
-    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg" />
-    <entry file="file://$PROJECT_DIR$/env/bin/activate" />
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/loss.png" />
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_2_d2/acc.png" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="85" selection-start-line="85" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="140">
-            <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/feed_forward/load_FF_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars/plotting/plot_img.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="e#211#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_base/mcqueen/loss.png" />
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_base/mcqueen_retrained_1_d1/acc_end_training.png" />
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_base/mcqueen/acc.png" />
-    <entry file="file://$PROJECT_DIR$/models/base_FF_model/graphs/acc.jpg" />
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_phase_three/model_info.txt" />
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_phase_two/model_info.txt" />
-    <entry file="file://$PROJECT_DIR$/models/test_log.txt" />
-    <entry file="file://$PROJECT_DIR$/models/mcqueen_base/model_info.txt" />
-    <entry file="file://$PROJECT_DIR$/drivers/feed_forward/model.png" />
-    <entry file="file://$PROJECT_DIR$/cars/plotting/plot_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars/matrix/ConfusionMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars/label/label.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="43" column="93" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="93" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars/plotting/plot_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_p2_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="e#232#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen_adam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-          <folding>
-            <element signature="e#286#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/mcqueen_mobilenet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_phase_two.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="e#250#259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars/testing/test_mcqueen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-          <folding>
-            <element signature="e#215#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars/load/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="905">
-          <caret line="67" column="95" selection-start-line="67" selection-start-column="95" selection-end-line="67" selection-end-column="95" />
-          <caret line="74" column="95" selection-start-line="74" selection-start-column="95" selection-end-line="74" selection-end-column="95" />
-          <folding>
-            <element signature="e#207#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cars/load/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="95" selection-start-line="32" selection-start-column="95" selection-end-line="32" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/mcqueen_phase_one/train_mcqueen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#232#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$mcqueen_phase_two.coverage" NAME="mcqueen_phase_two Coverage Results" MODIFIED="1585645945723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_two" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen_adam.coverage" NAME="create_mcqueen_adam Coverage Results" MODIFIED="1583097208738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaidml_test_model$load_model.coverage" NAME="load_model Coverage Results" MODIFIED="1581511570519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lightning_McQueen$train_mcqueen.coverage" NAME="train_mcqueen Coverage Results" MODIFIED="1589512391916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_one" />
+    <SUITE FILE_PATH="coverage/plaidml_test_model$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1581511484934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaidml_test_model$conv2d_model_test.coverage" NAME="conv2d_model_test Coverage Results" MODIFIED="1581700532105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$test_mcqueen__1_.coverage" NAME="test_mcqueen (1) Coverage Results" MODIFIED="1583088918907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$plaidml_model_test.coverage" NAME="create_mcqueen_ff Coverage Results" MODIFIED="1583102720200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen_ff__1_.coverage" NAME="create_mcqueen_ff (1) Coverage Results" MODIFIED="1583337815999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/feed_forward" />
   </component>
 </project>

@@ -3,7 +3,7 @@ import os
 os.environ["KERAS_BACKEND"] = "plaidml.keras.backend"
 
 from cars.load.dataset import load_y_1, load_x_1
-from cars.plotting.plot_graph import plot_model
+from cars.plotting.plot_training import plot_model
 # from cars.testing.test_mcqueen import test_model
 
 from keras.models import Sequential
@@ -35,7 +35,7 @@ model.add(Dropout(0.5))
 model.add(Dense(350, activation='relu'))
 model.add(Dense(6, activation='softmax'))
 
-model.compile(optimizer=SGD(lr=0.0001), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+model.compile(optimizer=SGD(lr=0.001), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 # Stops the training early of the val_loss has stopped improving
 early_stop = EarlyStopping(monitor="val_loss", min_delta=0, patience=3, verbose=0,

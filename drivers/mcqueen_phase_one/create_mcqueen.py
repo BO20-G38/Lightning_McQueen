@@ -5,7 +5,7 @@
 # arm gestures.
 # ------------------------------------------------------- #
 import os
-from cars.plotting.plot_graph import plot_model
+from cars.plotting.plot_training import plot_model
 from cars.load.dataset import load_x_6, load_y_6
 
 
@@ -30,7 +30,6 @@ model.add(Conv2D(32, kernel_size=(5, 5), strides=(1, 1), activation='relu', inpu
 model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 model.add(Conv2D(64, (5, 5), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Dropout(0.2))
 model.add(Conv2D(128, (5, 5), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Flatten())
@@ -41,7 +40,7 @@ model.add(Dense(6, activation='softmax'))
 early_stop = EarlyStopping(monitor="val_loss", min_delta=0, patience=3, verbose=0, mode="auto",
                            baseline=None, restore_best_weights=False)
 
-model.compile(loss='sparse_categorical_crossentropy', optimizer=SGD(lr=0.001, momentum=0.8), metrics=['accuracy'])
+model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 history = model.fit(X, y, batch_size=150, epochs=8, verbose=1, validation_split=0.3, callbacks=[early_stop])
 
 

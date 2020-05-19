@@ -6,7 +6,7 @@
 # This model uses adam as optimizer
 # ------------------------------------------------------- #
 import os
-from cars.plotting.plot_graph import plot_model
+from cars.plotting.plot_training import plot_model
 from cars.load.dataset import load_x_dataset1, load_y_dataset1
 from cars.testing.test_mcqueen import test_model
 

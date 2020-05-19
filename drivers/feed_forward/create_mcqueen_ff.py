@@ -1,6 +1,6 @@
 import os
 from cars.load.dataset import load_y_dataset1, load_x_dataset1
-from cars.plotting.plot_graph import plot_model
+from cars.plotting.plot_training import plot_model
 from cars.testing.test_mcqueen import test_model
 from cars.plotting.plot_model import visualize_model
 
@@ -31,10 +31,8 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 early_stop = EarlyStopping(monitor="val_loss", min_delta=0, patience=7, verbose=0,
                            mode="auto", baseline=None, restore_best_weights=False)
 
-# arch = visualize_model(model, 'model.png')
-
 # Trains the model and saves the history of the training
-history = model.fit(X, y, batch_size=150, epochs=2, validation_split=0.2, callbacks=[early_stop])
+history = model.fit(X, y, batch_size=150, epochs=100, validation_split=0.2, callbacks=[early_stop])
 
 # Plotting the acc & loss of the training and validation
 plot_model(history, 'acc', 'McQueen_Fully_connected', '/Users/william/Documents/gitHub/B20IT38/mcqueen_models/mcqueen_FF/base/acc.png')
