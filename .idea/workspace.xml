@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c0efdc-5f14-41c9-b415-f8fabcacd211" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cars/video/video_to_img.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/label/label.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/label/label.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/feed_forward/create_mcqueen_ff.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/fully_connected/create_mcqueen_fully_connected.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/feed_forward/load_FF_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/fully_connected/load_FF_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_one/create_mcqueen_phase_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/mcqueen_phase_two/mcqueen_phase_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/mcqueen_phase_two/create_mcqueen_phase_two.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/phase_three/phase_three_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/phase_three/create_mcqueen_phase_three.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +286,8 @@
       <workItem from="1589465510715" duration="9862000" />
       <workItem from="1589557459197" duration="2258000" />
       <workItem from="1589816344346" duration="9186000" />
-      <workItem from="1589894638306" duration="10460000" />
+      <workItem from="1589894638306" duration="10491000" />
+      <workItem from="1590251595080" duration="252000" />
     </task>
     <servers />
   </component>
@@ -321,26 +317,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589915512478" />
-    <state width="1877" height="392" key="GridCell.Tab.0.bottom" timestamp="1589915495830">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom" timestamp="1589921709545">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589915495830" />
-    <state width="1860" height="389" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589843615894" />
-    <state width="1877" height="392" key="GridCell.Tab.0.center" timestamp="1589915495829">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589921709545" />
+    <state width="1877" height="247" key="GridCell.Tab.0.center" timestamp="1589921709545">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="392" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589915495829" />
-    <state width="1860" height="389" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589843615893" />
-    <state width="1877" height="392" key="GridCell.Tab.0.left" timestamp="1589915495829">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="247" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589921709545" />
+    <state width="1877" height="247" key="GridCell.Tab.0.left" timestamp="1589921709545">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="392" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589915495829" />
-    <state width="1860" height="389" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589843615893" />
-    <state width="1877" height="392" key="GridCell.Tab.0.right" timestamp="1589915495830">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="247" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589921709545" />
+    <state width="1877" height="247" key="GridCell.Tab.0.right" timestamp="1589921709545">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="392" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589915495830" />
-    <state width="1860" height="389" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589843615894" />
+    <state width="1877" height="247" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589921709545" />
     <state x="461" y="168" key="SettingsEditor" timestamp="1588350654430">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -1,0 +1,236 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{lightning-mcqueen}{%
+\section{Lightning McQueen}\label{lightning-mcqueen}}
+
+Lighting McQueen is our phases of models created for arm gesture
+recognition. Bellow you will find the setup process for beeing able to
+run the code used for machine learning part of this project.
+
+\hypertarget{requirements}{%
+\subsection{Requirements}\label{requirements}}
+
+\begin{itemize}
+\item
+  Python 3.6 or 3.7
+\item
+  We recommend using PyCharm IDE (https://www.jetbrains.com/pycharm/)
+\end{itemize}
+
+\hypertarget{configure-and-activate-virtual-environment}{%
+\subsection{Configure and activate virtual
+environment﻿}\label{configure-and-activate-virtual-environment}}
+
+\hypertarget{pycharm}{%
+\subsubsection{PyCharm}\label{pycharm}}
+
+If a virtual environment﻿ was not created when setting up a new project
+in PyCharm follow JetBrains guide on setting up a virtual environment
+(https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html)
+
+\hypertarget{terminal}{%
+\subsubsection{Terminal}\label{terminal}}
+
+\hypertarget{check-to-see-if-your-install-of-python-has-pip}{%
+\paragraph{Check to see if your install of Python has
+pip}\label{check-to-see-if-your-install-of-python-has-pip}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{pip}\NormalTok{ {-}h}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{install-virtualenv-package}{%
+\paragraph{Install virtualenv
+package}\label{install-virtualenv-package}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{pip}\NormalTok{ install virtualenv}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{create-virtual-environment}{%
+\paragraph{Create virtual
+environment}\label{create-virtual-environment}}
+
+Make sure to be in the project directory.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{virtualenv}\NormalTok{ venv}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{activate-virtual-environment}{%
+\paragraph{Activate virtual
+environment}\label{activate-virtual-environment}}
+
+Mac OS and Linux
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\BuiltInTok{source}\NormalTok{ venv/bin/activate}
+\end{Highlighting}
+\end{Shaded}
+
+Windows
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{venv}\NormalTok{\textbackslash{}Scripts\textbackslash{}activate}
+\end{Highlighting}
+\end{Shaded}
+
+If you want to deactivate the virtual environment simply run
+\texttt{deactivate} in the terminal window.
+
+\hypertarget{installation-of-needed-packages}{%
+\subsection{Installation of needed
+packages}\label{installation-of-needed-packages}}
+
+Use the package manager \href{https://pip.pypa.io/en/stable/}{pip} for
+installing needed packages.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{pip}\NormalTok{ install plaidml{-}keras plaidbench}
+\ExtensionTok{pip}\NormalTok{ install {-}U matplotlib}
+\ExtensionTok{pip}\NormalTok{ install opencv{-}python}
+\ExtensionTok{pip}\NormalTok{ install tqdm}
+\ExtensionTok{pip}\NormalTok{ install termcolor}
+\ExtensionTok{pip}\NormalTok{ install sty}
+\ExtensionTok{pip}\NormalTok{ install pickle}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{setup-plaidml}{%
+\subsubsection{Setup PlaidML}\label{setup-plaidml}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\VariableTok{+ If you have a dedicated GPU its recomended to select it as your accelerator.}
+\end{Highlighting}
+\end{Shaded}
+
+Choose which accelerator you'd like to use (many computers, especially
+laptops, have multiple) In the terminal of your python project (venv)
+write:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{plaidml{-}setup}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{itemize}
+\tightlist
+\item
+  Enable experimental mode
+\item
+  Select your accelerator
+\end{itemize}
+
+Now try benchmarking MobileNet:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{plaidbench}\NormalTok{ keras mobilenet}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{itemize}
+\tightlist
+\item
+  You are now good to go!
+\end{itemize}
+
+\end{document}
