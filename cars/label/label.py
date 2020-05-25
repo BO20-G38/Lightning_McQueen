@@ -5,38 +5,72 @@ from tqdm import tqdm
 import random
 import pickle
 
-CATEGORIES = ["forward", "right", "left", "backward", "stop", "still"]
+categories = ["forward", "right", "left", "backward", "stop", "still"]
 training_data = []
 IMG_SIZE = 100
 
 
-def create_training_data(DATADIR):
-    for category in CATEGORIES:
-        path = os.path.join(DATADIR, category)
-        class_num = CATEGORIES.index(category)
+def create_training_data(datadir, categories, img_size, x_name, y_name, rgb=None):
+    training_data = []
+    color_mode = None
+
+    if rgb or rgb is None:
+        color_mode = cv2.COLOR_BGR2RGB
+    else:
+        color_mode = cv2.IMREAD_GRAYSCALE
+
+    for cat in categories:
+        path = os.path.join(datadir, cat)
+        class_num = categories.index(cat)
 
         for img in tqdm(os.listdir(path)):
             try:
-                img_array = cv2.imread(os.path.join(path, img))
-                training_data.append([img_array, class_num])
+                img_array = cv2.imread(os.path.join(path, img), color_mode)
+                resize_array = cv2.resize(img_array, (img_size, img_size))
+                training_data.append([resize_array, class_num])
+            except OSError as e:
+                print("OSErrroBad img most likely", e, os.path.join(path, img))
             except Exception as e:
-                pass
+                print("general exception", e, os.path.join(path, img))
 
-    random.shuffle(training_data)
+    append_data(training_data, img_size, x_name, y_name, rgb)
 
-    X = []
+
+# Shuffle and append labels and features
+# then calls export_dataset()
+def append_data(data, img_size, x_name, y_name, rgb):
+    color_channels = None
+    random.shuffle(data)
+
+    x = []
     y = []
 
-    for features, label in training_data:
-        X.append(features)
+    for features, label in data:
+        x.append(features)
         y.append(label)
+        features = None
+        label = None
 
-    X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 3)
+    data.clear()
+    data = None  # clear the data array to save system memory
 
-    pickle_out = open(DATADIR + "/X.pickle", "wb")
-    pickle.dump(X, pickle_out)
+    if rgb:
+        color_channels = 3
+    else:
+        color_channels = 1
+
+    x = np.array(x).reshape(-1, img_size, img_size, color_channels)
+
+    export_dataset(x_name, x)
+    export_dataset(y_name, y)
+
+    # export the dataset as .pickle for later use
+
+
+def export_dataset(name, data):
+    pickle_out = open(name + '.pickle', 'wb')
+    pickle.dump(data, pickle_out, protocol=4)
     pickle_out.close()
 
-    pickle_out = open(DATADIR + "/y.pickle", "wb")
-    pickle.dump(y, pickle_out)
-    pickle_out.close()
+
+create_training_data('E:/test', categories, 100, 'x', 'y', False)
