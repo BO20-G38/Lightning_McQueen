@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/label/label.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/label/label.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/load/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/load/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/prepair_img/prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/prepair_img/prep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/testing/test_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars/testing/test_mcqueen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/train_mcqueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/train_mcqueen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
       <recent name="$PROJECT_DIR$/models" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.label">
+  <component name="RunManager" selected="Python.train_mcqueen (1)">
     <configuration name="create_mcqueen_adam" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="lightning_mcqueen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,28 +145,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mcqueen_phase_two" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lightning_mcqueen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drivers/mcqueen_phase_two" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\William\Documents\GitHub\B20IT38\Lightning_McQueen\drivers\mcqueen_phase_two\create_mcqueen_phase_two.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="prep" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lightning_mcqueen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,6 +159,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cars/prepair_img/prep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_mcqueen (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lightning_mcqueen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drivers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drivers/train_mcqueen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,19 +214,19 @@
     <list>
       <item itemvalue="Python.create_mcqueen_adam" />
       <item itemvalue="Python.mcqueen_p2_train" />
-      <item itemvalue="Python.mcqueen_phase_two" />
       <item itemvalue="Python.train_mcqueen" />
       <item itemvalue="Python.label" />
       <item itemvalue="Python.prep" />
       <item itemvalue="Python.create_mcqueen_phase_three" />
+      <item itemvalue="Python.train_mcqueen (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.label" />
+        <item itemvalue="Python.train_mcqueen (1)" />
         <item itemvalue="Python.prep" />
+        <item itemvalue="Python.label" />
         <item itemvalue="Python.train_mcqueen" />
         <item itemvalue="Python.create_mcqueen_phase_three" />
-        <item itemvalue="Python.mcqueen_phase_two" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +292,7 @@
       <workItem from="1589816344346" duration="9186000" />
       <workItem from="1589894638306" duration="10491000" />
       <workItem from="1590251595080" duration="252000" />
-      <workItem from="1590431154692" duration="1426000" />
+      <workItem from="1590431154692" duration="7494000" />
     </task>
     <servers />
   </component>
@@ -311,10 +314,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588359008709">
+    <state x="414" y="181" width="1277" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590435344295">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588359008709" />
+    <state x="414" y="181" width="1277" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590435344295" />
     <state x="690" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590431709221">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -323,26 +326,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="739" y="268" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590431955346" />
-    <state width="1877" height="247" key="GridCell.Tab.0.bottom" timestamp="1590434652373">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1860" height="321" key="GridCell.Tab.0.bottom" timestamp="1590453096088">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590434652373" />
-    <state width="1877" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589921709545" />
-    <state width="1877" height="247" key="GridCell.Tab.0.center" timestamp="1590434652373">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590440211843" />
+    <state width="1860" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1590453096088" />
+    <state width="1860" height="321" key="GridCell.Tab.0.center" timestamp="1590453096088">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="247" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590434652373" />
-    <state width="1877" height="247" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589921709545" />
-    <state width="1877" height="247" key="GridCell.Tab.0.left" timestamp="1590434652373">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="179" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590440211843" />
+    <state width="1860" height="321" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1590453096088" />
+    <state width="1860" height="321" key="GridCell.Tab.0.left" timestamp="1590453096088">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="247" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590434652373" />
-    <state width="1877" height="247" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589921709545" />
-    <state width="1877" height="247" key="GridCell.Tab.0.right" timestamp="1590434652373">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="179" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590440211843" />
+    <state width="1860" height="321" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1590453096088" />
+    <state width="1860" height="321" key="GridCell.Tab.0.right" timestamp="1590453096088">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="247" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590434652373" />
-    <state width="1877" height="247" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1589921709545" />
+    <state width="1877" height="179" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590440211843" />
+    <state width="1860" height="321" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1590453096088" />
     <state x="461" y="168" key="SettingsEditor" timestamp="1588350654430">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -355,9 +358,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lightning_mcqueen$load_conv_model.coverage" NAME="train_mcqueen Coverage Results" MODIFIED="1583098727506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Lightning_McQueen$label.coverage" NAME="label Coverage Results" MODIFIED="1590431711462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/label" />
+    <SUITE FILE_PATH="coverage/Lightning_McQueen$label.coverage" NAME="label Coverage Results" MODIFIED="1590438429481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/label" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$train_mcqueen.coverage" NAME="train_mcqueen Coverage Results" MODIFIED="1588271906589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_one" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$create_mcqueen.coverage" NAME="create_mcqueen Coverage Results" MODIFIED="1585135110175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_one" />
+    <SUITE FILE_PATH="coverage/Lightning_McQueen$train_mcqueen__1_.coverage" NAME="train_mcqueen (1) Coverage Results" MODIFIED="1590440211838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$mcqueen_p2_train.coverage" NAME="mcqueen_p2_train Coverage Results" MODIFIED="1584468020376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_two" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$mcqueen_resnet.coverage" NAME="mcqueen_mobilenet Coverage Results" MODIFIED="1584579912397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$label.coverage" NAME="label Coverage Results" MODIFIED="1585412677327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/label" />
@@ -365,7 +369,7 @@
     <SUITE FILE_PATH="coverage/lightning_mcqueen$plot_model.coverage" NAME="plot_model Coverage Results" MODIFIED="1583336950427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/plotting" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$test_mcqueen.coverage" NAME="test_mcqueen Coverage Results" MODIFIED="1583084357354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/testing" />
     <SUITE FILE_PATH="coverage/Lightning_McQueen$phase_three_model.coverage" NAME="phase_three_model Coverage Results" MODIFIED="1589506640360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/phase_three" />
-    <SUITE FILE_PATH="coverage/Lightning_McQueen$prep.coverage" NAME="prep Coverage Results" MODIFIED="1589914914866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/prepair_img" />
+    <SUITE FILE_PATH="coverage/Lightning_McQueen$prep.coverage" NAME="prep Coverage Results" MODIFIED="1590438738048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cars/prepair_img" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$show_layers.coverage" NAME="show_layers Coverage Results" MODIFIED="1581417311399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/plaidml_test_model$load_conv_model.coverage" NAME="load_conv_model Coverage Results" MODIFIED="1581873008640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lightning_mcqueen$mcqueen_phase_two.coverage" NAME="mcqueen_phase_two Coverage Results" MODIFIED="1585645945723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drivers/mcqueen_phase_two" />
